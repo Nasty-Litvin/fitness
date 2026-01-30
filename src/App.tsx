@@ -9,8 +9,8 @@ function App() {
     <>
       <div>Hello</div>
       <Button text={text} />
-      <Title title="заголовок" level={1} />
-      <Title title="заголовок" level={2} />
+      <Title title="заголовок" style={{fontSize: '54px'}} level={1} />
+      <Title title="заголовок" style={{fontSize: '40px'}} level={2} />
     </>
   )
 }
