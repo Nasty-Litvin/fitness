@@ -7,7 +7,7 @@ export interface MenuItemProps {
 
 const MenuItem = ({content}: MenuItemProps) => {
     return ( 
-        <li>
+        <li className="menu-item">
             {content}
         </li>
      );
