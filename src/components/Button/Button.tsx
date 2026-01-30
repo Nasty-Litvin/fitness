@@ -2,7 +2,7 @@ import './style.scss';
 
 export interface ButtonProp extends React.ButtonHTMLAttributes<HTMLButtonElement> {
     text: string;
-    variant?: 'primary' | 'secondary';
+    variant?: 'primary' | 'secondary' | 'tertiary';
     style?: React.CSSProperties;
 } 
 
