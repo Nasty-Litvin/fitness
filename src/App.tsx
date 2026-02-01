@@ -21,7 +21,7 @@ function App() {
       <Menu menu={menu} />
       <Logo urlLogo={logo} style={{maxWidth: '155px'}} />
       <Logo urlLogo={logo} style={{maxWidth: '117px'}} />
-      <Icon url={vkUrl} style={{width: '17px'}}/>
+      <Icon urlIcon={vkUrl} style={{width: '17px'}}/>
     </>
   )
 }

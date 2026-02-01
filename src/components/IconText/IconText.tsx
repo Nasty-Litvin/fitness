@@ -10,7 +10,10 @@ export interface IconTextProps {
 const IconText = ({iconUrl, text, iconStyle}: IconTextProps) => {
     return (
         <div className="icon-text">
-            <Icon url={iconUrl} style={iconStyle} />
+            <Icon 
+                urlIcon={iconUrl} 
+                style={iconStyle} 
+            />
             <p>{text}</p>
         </div>
     )

@@ -1,13 +1,17 @@
 import "./style.scss";
 
-export interface IconProps {
-    url: string;
-    style?: React.CSSProperties;
+export interface IconProps extends React.ImgHTMLAttributes<HTMLImageElement> {
+    urlIcon: string;
 }
 
-const Icon = ({url, style}: IconProps) => {
+const Icon = ({urlIcon, className, ...rest}: IconProps) => {
     return (
-        <img src={url} className="icon" style={style} alt="icon" />
+        <img 
+            src={urlIcon} 
+            className={`icon ${className ?? ''}`}
+            alt="icon" 
+            {...rest}
+            />
     )
 }
 
