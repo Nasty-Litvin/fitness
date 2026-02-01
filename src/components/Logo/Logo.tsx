@@ -1,13 +1,17 @@
 import "./style.scss";
 
-export interface LogoProps {
-    url: string;
-    style?: React.CSSProperties;
+export interface LogoProps extends React.ImgHTMLAttributes<HTMLImageElement> {
+    urlLogo: string;
 }
 
-const Logo = ({url, style}: LogoProps) => {
+const Logo = ({urlLogo, className, ...rest}: LogoProps) => {
     return (
-        <img src={url} className="logo" style={style} alt="logo" />
+        <img
+            src={urlLogo} 
+            className={`logo ${className ?? ''}`}
+            alt="logo"
+            {...rest}
+        />
     )
 }
 

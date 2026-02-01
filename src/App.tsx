@@ -19,8 +19,8 @@ function App() {
       <Title title="заголовок" style={{fontSize: '54px'}} level={1} />
       <Title title="заголовок" style={{fontSize: '40px'}} level={2} />
       <Menu menu={menu} />
-      <Logo url={logo} style={{maxWidth: '155px'}} />
-      <Logo url={logo} style={{maxWidth: '117px'}} />
+      <Logo urlLogo={logo} style={{maxWidth: '155px'}} />
+      <Logo urlLogo={logo} style={{maxWidth: '117px'}} />
       <Icon url={vkUrl} style={{width: '17px'}}/>
     </>
   )
