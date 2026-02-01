@@ -1,12 +1,11 @@
-import logo from "../../assets/logo.svg";
 import "./style.scss";
 
 export interface LogoProps {
-    url?: string;
+    url: string;
     style?: React.CSSProperties;
 }
 
-const Logo = ({url=logo, style}: LogoProps) => {
+const Logo = ({url, style}: LogoProps) => {
     return (
         <img src={url} className="logo" style={style} alt="logo" />
     )

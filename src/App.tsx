@@ -5,6 +5,7 @@ import Logo from './components/Logo/Logo';
 import menuData from "./data/menuHeader.json";
 import Icon from './components/Icon/Icon';
 import vkUrl from './assets/Icons/vk.svg';
+import logo from './assets/logo.svg'
 
 import './App.scss';
 
@@ -18,8 +19,8 @@ function App() {
       <Title title="заголовок" style={{fontSize: '54px'}} level={1} />
       <Title title="заголовок" style={{fontSize: '40px'}} level={2} />
       <Menu menu={menu} />
-      <Logo style={{maxWidth: '155px'}} />
-      <Logo style={{maxWidth: '117px'}} />
+      <Logo url={logo} style={{maxWidth: '155px'}} />
+      <Logo url={logo} style={{maxWidth: '117px'}} />
       <Icon url={vkUrl} style={{width: '17px'}}/>
     </>
   )
