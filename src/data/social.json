@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "name": "telegram",
+            "url": "/Icons/telegram.svg",
+            "width": "17px"
+        },
+        {
+            "name": "instagram",
+            "url": "/Icons/instagram.svg",
+            "width": "17px"
+        },
+        {
+            "name": "facebook",
+            "url": "/Icons/facebook.svg",
+            "width": "9px"
+        },
+                {
+            "name": "vk",
+             "url": "/Icons/vk.svg",
+            "width": "17px"
+        }
+    ]
+}
