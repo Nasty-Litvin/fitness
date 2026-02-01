@@ -3,6 +3,8 @@ import Menu from './components/Menu/Menu';
 import Title from './components/Title/Title';
 import Logo from './components/Logo/Logo';
 import menuData from "./data/menuHeader.json";
+import Icon from './components/Icon/Icon';
+import vkUrl from './assets/Icons/vk.svg';
 
 import './App.scss';
 
@@ -18,6 +20,7 @@ function App() {
       <Menu menu={menu} />
       <Logo style={{maxWidth: '155px'}} />
       <Logo style={{maxWidth: '117px'}} />
+      <Icon url={vkUrl} style={{width: '17px'}}/>
     </>
   )
 }
