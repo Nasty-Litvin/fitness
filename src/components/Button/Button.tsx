@@ -1,14 +1,13 @@
 import './style.scss';
 
-export interface ButtonProp extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
     text: string;
     variant?: 'primary' | 'secondary' | 'tertiary';
-    style?: React.CSSProperties;
 } 
 
-const Button = ({text, variant='primary', style,  ...rest}: ButtonProp) => {
+const Button = ({text, variant='primary',  ...rest}: ButtonProps) => {
     return ( 
-        <button className={`button button--${variant}`} style={style} {...rest}>{text}</button>
+        <button className={`button button--${variant}`} {...rest}>{text}</button>
      );
 }
  
