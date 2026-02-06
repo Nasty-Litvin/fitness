@@ -5,7 +5,6 @@ import socialIcons from "../../data/social.json";
 import "./style.scss";
 
 
-
 const HeaderContacts = () => {
     const tel = "+7 (495) 859-03-72";
 
@@ -16,7 +15,7 @@ const HeaderContacts = () => {
                 text={tel}
                 iconStyle={{width: "16px"}}
             />
-            <div>
+            <div className="social-icons">
                 {socialIcons.data.map((icon) => (
                     <Icon
                         urlIcon={icon.url}

@@ -1,0 +1,12 @@
+.menu {
+    &--header {
+        display: flex;
+        
+    }
+    &__list {
+        display: flex;
+        gap: 42px;
+        font-size: 14px;
+    }
+
+}

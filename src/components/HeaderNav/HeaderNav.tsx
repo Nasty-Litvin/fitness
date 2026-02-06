@@ -8,8 +8,8 @@ import "./style.scss";
 const HeaderNav = () => {
     return (
         <div className="header-nav">
-            <Logo urlLogo={logo} />
-            <Menu menu={menuData.data} />
+            <Logo className="logo--header" urlLogo={logo} />
+            <Menu className="menu--header" menu={menuData.data} />
         </div>
     )
 }

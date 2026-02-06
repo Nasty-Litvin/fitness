@@ -5,8 +5,14 @@ import "./style.scss";
 const Header = () => {
     return (
         <header className="header">
-            <HeaderNav />
-            <HeaderContacts />
+            <div style={{background: '#004643',}}>
+                <div className="header__container">
+                    <HeaderContacts />
+                </div>
+            </div>
+            <div className="header__container">
+                <HeaderNav />
+            </div>
         </header>
     )
 }

@@ -8,11 +8,11 @@ export interface MenuItemProps {
     style?: React.CSSProperties;
 }
 
-const Menu = ({menu}: MenuItemProps) => {
+const Menu = ({menu, className}: MenuItemProps) => {
 
     return ( 
-        <nav className="menu">
-            <ul className="menu-list">
+        <nav className={`menu ${className || ''}`}>
+            <ul className="menu__list">
                {
                 menu.map((item) => <MenuItem content={item} />)
                }
