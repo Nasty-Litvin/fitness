@@ -1,0 +1,17 @@
+.header-contacts {
+    // background: #004643;
+    display: flex;
+    justify-content: flex-end;
+    gap: 48px;
+    height: 40px;
+}
+.header-contacts .icon-text {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header-contacts .social-icons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

@@ -1,0 +1,20 @@
+.button {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 140%;
+    border-radius: 12px;
+}
+.button:hover {
+    background: linear-gradient(10deg, #32DDD4 0%, #1A746F 100%);
+}
+.button:active {
+    background: none;
+    border: 1px solid #FFFFFF;
+}
+.button--primary {
+    background: linear-gradient(180deg, #32DDD4 0%, #1A746F 100%);
+}
+.button--secondary {
+    background: linear-gradient(180deg, #FFFFFF 0%, #B5B5B5 100%);
+}
